@@ -75,10 +75,10 @@ export default function Home() {
             animate = {{opacity:1, x:0}}
             transition={{duration: 0.8}}
             className="flex items-center gap-3">
-              <Link href={'#'} className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors">
+              <Link href={'https://github.com/eshd1/personal-playground'} className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors">
                 <FaGithub className="w-6 h-6"></FaGithub>
               </Link>
-              <Link href={'#'} className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors">
+              <Link href={'https://www.linkedin.com/in/eshaan-dua/'} className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors">
                 <FaLinkedin className="w-6 h-6"></FaLinkedin>
               </Link>
             </motion.div>
@@ -102,8 +102,9 @@ export default function Home() {
               </div>
 
               <p className="text-gray-600 dark:text-gray-400 text-sm">
-                Working with the AI Research Division at US Bank. Created an automated framework to test and gain insight into LLM evaluation for further research and implemented
-                an algorithm that allowed to have automatic image analysis and detection utilizing the YOLO Algorithm for a consumer facing project.
+                Working with the AI Research Division at US Bank. Created an automated framework to test and gain insight into LLM evaluation for further research and to support other
+                internal organizational projects. Helped implement an algorithm for a project focused heavily on computer vision development. 
+        
               </p>
             </div>
 
@@ -185,7 +186,10 @@ export default function Home() {
                       <h3 className="font-medium">Streamlit Stockbot</h3>
                       <p className="text-sm text-gray-600 dark:text-gray-400">Python, TensorFlow, Ollama, Streamlit</p>
                     </div>
-                    <Button variant="ghost" size="icon">→</Button>
+                    <Link href={'https://github.com/eshd1/personal-playground/tree/main/streamlit-stockbot'}>
+                      <Button variant="ghost" size="icon">→</Button>
+                    </Link>
+                    
                   </div>
                 </CardContent>
               </Card>
