@@ -48,7 +48,7 @@ export default function Home() {
               <p className="text-gray-600 text-sm dark:text-gray-400 max-w-2xl"> I am currently an AI/ML engineer at {" "} 
                 <span className="text-black dark:text-white">U.S Bank. </span>
                 I work with the ResearchOps division, focused heavily into LLM Evaluation. At the same time, I am pursuing a {" "}
-                <span className="text-black dark:text-white">Master's of Science</span>{" "}in{" "}
+                <span className="text-black dark:text-white">Master&apos;s of Science</span>{" "}in{" "}
                 <span className="text-black dark:text-white">Artificial Intelligence</span>{" "} at {" "}
                 <span className="text-black dark:text-white">Johns Hopkins University.</span>
                 
@@ -118,7 +118,7 @@ export default function Home() {
               </div>
 
               <p className="text-gray-600 dark:text-gray-400 text-sm">
-                Worked on core apps and microservices that are the pillars of U.S. Bank's Wealth Management Division. Assisted in creating a framework to further have higher effienciency
+                Worked on core apps and microservices that are the pillars of U.S. Bank&apos;s Wealth Management Division. Assisted in creating a framework to further have higher effienciency
                 within our Jenkins pipelines. Worked with DevOps technologies such as: Jenkins, JSON, YAML, Docker, Kubernetes, and Groovy
               </p>
             </div>
